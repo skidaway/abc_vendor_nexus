@@ -34,3 +34,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/nexus/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
     vendor/nexus/prebuilt/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+ # World SPN overrides list
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
