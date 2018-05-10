@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2017 The ABC rom
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,13 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Add Stock Lollipop bootanimation based on device
-ifneq ($(filter angler,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/nexus/prebuilt/bootanimation/angler.zip:system/media/bootanimation.zip
-endif
+# Include pure telephony configuration
+include vendor/nexus/configs/abc_phone.mk
 
-ifneq ($(filter angler,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/nexus/prebuilt/bootanimation/berkeley:system/media/bootanimation.zip
-endif
+# Inherit AOSP device configuration for angler
+$(call inherit-product, device/huawei/berkeley/aosp_berkeley.mk)
+
+# Override AOSP build properties
+PRODUCT_NAME := berkeley
+PRODUCT_DEVICE := berkeley
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := Honor View 10
