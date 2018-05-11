@@ -18,7 +18,7 @@ ifneq ($(filter angler,$(TARGET_PRODUCT)),)
         vendor/nexus/prebuilt/bootanimation/angler.zip:system/media/bootanimation.zip
 endif
 
-ifneq ($(filter angler,$(TARGET_PRODUCT)),)
+ifneq ($(filter berkeley,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/nexus/prebuilt/bootanimation/berkeley:system/media/bootanimation.zip
+        vendor/nexus/prebuilt/bootanimation/berkeley.zip:system/media/bootanimation.zip
 endif
