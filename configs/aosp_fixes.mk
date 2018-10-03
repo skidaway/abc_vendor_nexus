@@ -33,7 +33,3 @@ PRODUCT_COPY_FILES += \
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
     vendor/nexus/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
-
-# Clean up packages cache to avoid wrong strings and resources
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/bin/clean_cache.sh:system/bin/clean_cache.sh
