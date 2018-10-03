@@ -32,4 +32,5 @@ PRODUCT_COPY_FILES += \
 
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
-    vendor/nexus/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+    vendor/nexus/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
+    vendor/nexus/prebuilt/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml
