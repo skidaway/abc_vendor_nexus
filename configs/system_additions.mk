@@ -43,47 +43,47 @@ PRODUCT_PROPERTY_OVERRIDES += \
 EXCLUDE_SYSTEMUI_TESTS := true
 
 # DU Utils Library
-PRODUCT_BOOT_JARS += \
-   org.dirtyunicorns.utils
+#PRODUCT_BOOT_JARS += \
+   #org.dirtyunicorns.utils
 
 # DU Utils Library
-PRODUCT_PACKAGES += \
-   org.dirtyunicorns.utils
+#PRODUCT_PACKAGES += \
+   #org.dirtyunicorns.utils
 
 # Packages
-PRODUCT_PACKAGES += \
-    GBoardDarkTheme \
-    SystemUIDarkTheme \
-    SettingsDarkTheme \
-    SystemDarkTheme
+#PRODUCT_PACKAGES += \
+    #GBoardDarkTheme \
+    #SystemUIDarkTheme \
+    #SettingsDarkTheme \
+    #SystemDarkTheme
 
 # Overlays
-PRODUCT_PACKAGES += \
-    AmberAccent \
-    BlackAccent \
-    BlueAccent \
-    BlueGreyAccent \
-    BrownAccent \
-    CyanAccent \
-    DeepOrangeAccent \
-    DeepPurpleAccent \
-    GreenAccent \
-    GreyAccent \
-    IndigoAccent \
-    LightBlueAccent \
-    LightGreenAccent \
-    LimeAccent \
-    OrangeAccent \
-    PinkAccent \
-    PurpleAccent \
-    RedAccent \
-    TealAccent \
-    YellowAccent \
-    WhiteAccent
+#PRODUCT_PACKAGES += \
+    #AmberAccent \
+    #BlackAccent \
+    #BlueAccent \
+    #BlueGreyAccent \
+    #BrownAccent \
+    #CyanAccent \
+    #DeepOrangeAccent \
+    #DeepPurpleAccent \
+    #GreenAccent \
+    #GreyAccent \
+    #IndigoAccent \
+    #LightBlueAccent \
+    #LightGreenAccent \
+    #LimeAccent \
+    #OrangeAccent \
+    #PinkAccent \
+    #PurpleAccent \
+    #RedAccent \
+    #TealAccent \
+    #YellowAccent \
+    #WhiteAccent
 
 # Analog clocks
-PRODUCT_PACKAGES += \
-    DeepNightClock
+#PRODUCT_PACKAGES += \
+    #DeepNightClock
 
 # Disable Rescue Party
 PRODUCT_PROPERTY_OVERRIDES += \

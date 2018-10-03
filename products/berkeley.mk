@@ -15,7 +15,7 @@
 # Include pure telephony configuration
 include vendor/nexus/configs/abc_phone.mk
 
-# Inherit AOSP device configuration for angler
+# Inherit AOSP device configuration for berkeley
 $(call inherit-product, device/huawei/berkeley/aosp_berkeley.mk)
 
 # Override AOSP build properties

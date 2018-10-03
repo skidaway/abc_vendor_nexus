@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Add Stock Lollipop bootanimation based on device
-ifneq ($(filter angler,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/nexus/prebuilt/bootanimation/angler.zip:system/media/bootanimation.zip
-endif
-
 ifneq ($(filter berkeley,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/nexus/prebuilt/bootanimation/berkeley.zip:system/media/bootanimation.zip
