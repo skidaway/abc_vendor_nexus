@@ -14,8 +14,7 @@
 
 # init.d script support
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/nexus/prebuilt/bin/sysinit:system/bin/sysinit
+    vendor/nexus/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner
 
 # ABC custom init file
 PRODUCT_COPY_FILES += \
