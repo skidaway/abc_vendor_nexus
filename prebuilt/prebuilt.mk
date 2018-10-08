@@ -15,5 +15,4 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
-    Turbo \
     PrebuiltDeskClockGoogle
