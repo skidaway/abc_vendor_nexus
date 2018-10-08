@@ -50,9 +50,9 @@ EXCLUDE_SYSTEMUI_TESTS := true
    #org.dirtyunicorns.utils
 
 # Packages
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+    SysUIDarkTheme
     #GBoardDarkTheme \
-    #SystemUIDarkTheme \
     #SettingsDarkTheme \
     #SystemDarkTheme
 
