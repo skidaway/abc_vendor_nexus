@@ -49,13 +49,6 @@ EXCLUDE_SYSTEMUI_TESTS := true
 #PRODUCT_PACKAGES += \
    #org.dirtyunicorns.utils
 
-# Packages
-PRODUCT_PACKAGES += \
-    SysUIDarkTheme
-    #GBoardDarkTheme \
-    #SettingsDarkTheme \
-    #SystemDarkTheme
-
 # Overlays
 #PRODUCT_PACKAGES += \
     #AmberAccent \
