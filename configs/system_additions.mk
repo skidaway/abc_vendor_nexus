@@ -50,7 +50,8 @@ EXCLUDE_SYSTEMUI_TESTS := true
    #org.dirtyunicorns.utils
 
 PRODUCT_PACKAGES += \
-    CustomDoze
+    CustomDoze \
+    WeatherClient
 
 # Analog clocks
 #PRODUCT_PACKAGES += \

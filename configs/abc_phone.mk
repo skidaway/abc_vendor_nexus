@@ -17,6 +17,7 @@ include vendor/nexus/configs/abc_main.mk
 include vendor/nexus/configs/system_additions.mk
 include vendor/nexus/configs/version.mk
 include vendor/themes/common.mk
+include vendor/nexus/configs/weather.mk
 
 # Telephony packages
 PRODUCT_PACKAGES += \
