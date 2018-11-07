@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     CustomDoze \
     WeatherClient
 
+# Weather
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.pixelexperience.weather.revision=2
+
 # Analog clocks
 #PRODUCT_PACKAGES += \
     #DeepNightClock
