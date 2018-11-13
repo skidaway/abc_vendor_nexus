@@ -15,4 +15,6 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
-    PrebuiltDeskClockGoogle
+    PrebuiltDeskClockGoogle \
+    GoogleContacts \
+    GoogleDialer
