@@ -25,11 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
     #    ro.control_privapp_permissions=enforce \
 
-# Proprietary latinime libs needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so \
-    vendor/nexus/prebuilt/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
-
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
     vendor/nexus/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
