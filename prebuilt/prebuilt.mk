@@ -17,4 +17,5 @@ PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
     PrebuiltDeskClockGoogle \
     GoogleContacts \
-    GoogleDialer
+    GoogleDialer \
+    LatinIMEGooglePrebuilt
