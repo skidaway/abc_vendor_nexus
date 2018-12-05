@@ -104,4 +104,8 @@
      <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">2650</integer>
+
+    <!-- Component name for default assistant on this device -->
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+
 </resources>
