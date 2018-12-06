@@ -49,29 +49,8 @@ EXCLUDE_SYSTEMUI_TESTS := true
 #PRODUCT_PACKAGES += \
    #org.dirtyunicorns.utils
 
-# Overlays
-#PRODUCT_PACKAGES += \
-    #AmberAccent \
-    #BlackAccent \
-    #BlueAccent \
-    #BlueGreyAccent \
-    #BrownAccent \
-    #CyanAccent \
-    #DeepOrangeAccent \
-    #DeepPurpleAccent \
-    #GreenAccent \
-    #GreyAccent \
-    #IndigoAccent \
-    #LightBlueAccent \
-    #LightGreenAccent \
-    #LimeAccent \
-    #OrangeAccent \
-    #PinkAccent \
-    #PurpleAccent \
-    #RedAccent \
-    #TealAccent \
-    #YellowAccent \
-    #WhiteAccent
+PRODUCT_PACKAGES += \
+    CustomDoze
 
 # Analog clocks
 #PRODUCT_PACKAGES += \
