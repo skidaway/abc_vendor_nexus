@@ -108,4 +108,6 @@
     <!-- Component name for default assistant on this device -->
     <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
 
+    <!-- AoD default value -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 </resources>
