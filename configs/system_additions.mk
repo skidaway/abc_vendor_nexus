@@ -65,4 +65,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=30 \
     ro.config.bt_sco_vol_steps=30
 
+# Ambient, Google app and Sound search tile - music recognition
+PRODUCT_COPY_FILES +=  \
+    vendor/nexus/prebuilt/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
+
 $(call inherit-product-if-exists, vendor/nexus/prebuilt/prebuilt.mk)

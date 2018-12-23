@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     PrebuiltDeskClockGoogle \
     GoogleContacts \
     GoogleDialer \
-    LatinIMEGooglePrebuilt
+    LatinIMEGooglePrebuilt \
+    AmbientSensePrebuilt
