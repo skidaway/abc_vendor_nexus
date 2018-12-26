@@ -50,12 +50,10 @@ EXCLUDE_SYSTEMUI_TESTS := true
    #org.dirtyunicorns.utils
 
 PRODUCT_PACKAGES += \
-    CustomDoze \
-    WeatherClient
+    CustomDoze
 
-# Weather
-PRODUCT_PROPERTY_OVERRIDES += \
-    org.pixelexperience.weather.revision=2
+PRODUCT_PACKAGES += \
+    WeatherClient
 
 # Analog clocks
 #PRODUCT_PACKAGES += \
