@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include pure telephony configuration
+# Include telephony configuration
 include vendor/nexus/configs/abc_phone.mk
 
-# Inherit AOSP device configuration for berkeley
-$(call inherit-product, device/huawei/berkeley/aosp_berkeley.mk)
+# Inherit abc device configuration for berkeley
+$(call inherit-product, device/google/taimen/abc.mk)
 
-# Override AOSP build properties
-PRODUCT_NAME := berkeley
-PRODUCT_DEVICE := berkeley
-PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Honor View 10
+PRODUCT_NAME := taimen
+PRODUCT_DEVICE := taimen
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Pixel 2 XL
+PRODUCT_MANUFACTURER := Google
