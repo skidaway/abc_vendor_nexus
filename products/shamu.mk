@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The ABC rom
+# Copyright (C) 2018 The ABC rom
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,11 +15,12 @@
 # Include telephony configuration
 include vendor/nexus/configs/abc_phone.mk
 
-# Inherit abc device configuration for berkeley
-$(call inherit-product, device/google/taimen/abc.mk)
+# Inherit abc device configuration for shamu
+$(call inherit-product, device/moto/shamu/abc.mk)
 
-PRODUCT_NAME := taimen
-PRODUCT_DEVICE := taimen
+PRODUCT_NAME := shamu
+PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := Google
-PRODUCT_MODEL := Pixel 2 XL
-PRODUCT_MANUFACTURER := Google
+PRODUCT_MODEL := Nexus 6
+PRODUCT_MANUFACTURER := motorola
+
